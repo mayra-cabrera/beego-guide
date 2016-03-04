@@ -117,8 +117,14 @@ http://127.0.0.1:8080/v1/cats/?limit=100
 http://127.0.0.1:8080/v1/cats/?sortby=name&order=desc&limit=100
 ```
 
+o desde curl
 
-Para detenerlo con `Ctrl + C`
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"Age": 10, "Name": "Grumpyy", "CreatedAt": "2016-03-03T22:12:17-06:00", "UpdatedAt": "2016-03-03T22:12:17-06:00"}' http://127.0.0.1:8080/v1/cats/
+```
+
+
+Para detener el servidor presiona con `Ctrl + C`
 
 
 
