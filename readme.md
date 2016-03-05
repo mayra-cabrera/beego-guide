@@ -178,4 +178,4 @@ Swagger documentation en `localhost:8080/swagger/swagger-1/`
 - [Golang Mty](http://www.meetup.com/Golang-MTY/events/229070594/)
 - [@may-cabrera](https://twitter.com/may_cabrera), [@arnoldocolin](https://twitter.com/arnoldocolin)
 - [Proyecto de Rails](https://github.com/mayra-cabrera/funky)
-- [Funky API]()
+- [Funky API Golang](https://github.com/mayra-cabrera/funky_golang)
