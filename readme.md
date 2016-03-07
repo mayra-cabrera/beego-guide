@@ -22,8 +22,6 @@ $ go version
 go version go1.5.1 darwin/amd64
 ```
 
-
-
 ## Instalación de Beego
 
 Para poder usar Beego, hay que instalarlo junto con Bee (*command line utilities*). [Aquí](http://beego.me/quickstart) están las instrucciones completas. Básicamente es:
@@ -123,10 +121,7 @@ o desde curl
 curl -X POST -H "Content-Type: application/json" -d '{"Age": 10, "Name": "Grumpyy", "CreatedAt": "2016-03-03T22:12:17-06:00", "UpdatedAt": "2016-03-03T22:12:17-06:00"}' http://127.0.0.1:8080/v1/cats/
 ```
 
-
 Para detener el servidor presiona con `Ctrl + C`
-
-
 
 
 ### Documentación 
@@ -135,7 +130,7 @@ Beego tiene un panel administrativo y generación automática incluida a través
 
 ```golang
 // conf/app.go
-appname = benito
+appname = funky
 httpport = 8080
 runmode = dev
 autorender = false
@@ -149,8 +144,8 @@ EnableAdmin = true
 package main
 
 import (
-	_ "benito/docs"
-	_ "benito/routers"
+	_ "funky/docs"
+	_ "funky/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
@@ -169,8 +164,6 @@ Admin dashboard por default corre en `localhost:8088`
 Swagger documentation en `localhost:8080/swagger/swagger-1/`
 
 ![](swagger-ui.png)
-
-
 
 
 ## Referencias
