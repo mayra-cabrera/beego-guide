@@ -31,6 +31,8 @@ $ go get github.com/astaxie/beego
 $ go get github.com/beego/bee
 ```
 
+Y después para verificar que fue instalado correctamente: 
+
 ```bash
 $ bee version
 bee   :1.4.1
@@ -44,7 +46,7 @@ Go    :go version go1.5.1 darwin/amd64
 
 ### Base de datos
 
-Necesitamos una base de datos cualquiera (Mysql o PostgreSQL). También puedes ocupar una de [ejemplo](https://dev.mysql.com/doc/employee/en/employees-installation.html)
+Necesitamos una base de datos cualquiera (MySql o PostgreSQL). También puedes ocupar una de [ejemplo](https://dev.mysql.com/doc/employee/en/employees-installation.html)
 
 
 ### Creación de la API
@@ -121,7 +123,7 @@ o desde curl
 curl -X POST -H "Content-Type: application/json" -d '{"Age": 10, "Name": "Grumpyy", "CreatedAt": "2016-03-03T22:12:17-06:00", "UpdatedAt": "2016-03-03T22:12:17-06:00"}' http://127.0.0.1:8080/v1/cats/
 ```
 
-Para detener el servidor presiona con `Ctrl + C`
+Para detener el servidor presiona con `Ctrl + c`
 
 
 ### Documentación 
